@@ -1,0 +1,15 @@
+.card-actions {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-field {
+  display: block;
+  max-width: 90%;
+  margin-left: 1rem;
+}
+
+.form-title {
+  user-select: none;
+}

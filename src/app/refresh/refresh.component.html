@@ -1,0 +1,11 @@
+<div class="card-container">
+    <mat-card role="banner" class="card">
+        <mat-card-content class="enquiry">
+            <p>{{refreshStatus}}</p>
+        </mat-card-content>
+        <div matCardContent class="card-actions">
+            <button mat-raised-button color="primary" class="button-left" (click)="onClick($event)" [disabled]="btnDisabled">YES</button>
+            <button mat-raised-button color="primary" class="button-right" (click)="onClick($event)" [disabled]="btnDisabled">NO</button>
+        </div>
+    </mat-card>
+</div>

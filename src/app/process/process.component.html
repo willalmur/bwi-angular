@@ -1,0 +1,8 @@
+<div class="card-container">
+    <mat-card role="banner" class="card">
+        <app-header></app-header>
+        <app-check-list *ngIf="checkList"></app-check-list>
+        <app-progress-list *ngIf="progressList"></app-progress-list>
+        <app-item-list *ngIf="itemList"></app-item-list>
+    </mat-card>
+</div>

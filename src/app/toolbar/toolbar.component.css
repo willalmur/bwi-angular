@@ -1,0 +1,15 @@
+.toolbar {
+  height: 60px;
+}
+.main-title {
+  float: left;
+  position: absolute;
+  top: 16px;
+}
+
+.sub-title {
+  float: right;
+  position: absolute;
+  top: 20px;
+  left: 90%;
+}

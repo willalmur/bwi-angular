@@ -1,0 +1,21 @@
+.header-container {
+  min-height: 35px;
+  padding: 5px;
+}
+
+.title-container {
+  display: inline-block;
+  position: relative;
+  top: 9px;
+  left: 15px;
+}
+
+.form-title {
+  user-select: none;
+}
+
+.button-container {
+  position: absolute;
+  left: 70%;
+  display: inline-block;
+}

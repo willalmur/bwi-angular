@@ -1,0 +1,7 @@
+<div class="process-list">
+    <cdk-virtual-scroll-viewport appendOnly itemSize={{processes.length}} class="viewport">
+        <div *cdkVirtualFor="let process of processes">
+            <p class="process">{{process}}</p>
+        </div>
+    </cdk-virtual-scroll-viewport>
+</div>
